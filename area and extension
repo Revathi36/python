@@ -1,0 +1,11 @@
+# Python program for area of the circle
+R=float(input(" Input the radius of the circle"))
+A=3.14*R*R
+print("Area of the circle",A)
+
+
+
+#Python program for extension of the filename
+fn=input("Input the file name:")
+f=fn.split(".")
+print("The extension of the file is:" + f[-1])
